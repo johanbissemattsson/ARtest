@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 510edbdc1db6b4a8bb4af4ee2eb69444
+timeCreated: 1435154582
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arm_lower_L
+    100002: arm_lower_R
+    100004: arm_upper_L
+    100006: arm_upper_R
+    100008: Armature
+    100010: Character
+    100012: character_controller
+    100014: //RootNode
+    100016: fingers_L
+    100018: fingers_R
+    100020: foot_controller_L
+    100022: foot_controller_R
+    100024: foot_L
+    100026: foot_R
+    100028: hand_L
+    100030: hand_R
+    100032: head
+    100034: hips
+    100036: leg_lower_L
+    100038: leg_lower_R
+    100040: leg_upper_L
+    100042: leg_upper_R
+    100044: neck
+    100046: pelvis
+    100048: ref_front
+    100050: ref_side
+    100052: ribs
+    100054: shoulder_L
+    100056: shoulder_R
+    100058: spine
+    400000: arm_lower_L
+    400002: arm_lower_R
+    400004: arm_upper_L
+    400006: arm_upper_R
+    400008: Armature
+    400010: Character
+    400012: character_controller
+    400014: //RootNode
+    400016: fingers_L
+    400018: fingers_R
+    400020: foot_controller_L
+    400022: foot_controller_R
+    400024: foot_L
+    400026: foot_R
+    400028: hand_L
+    400030: hand_R
+    400032: head
+    400034: hips
+    400036: leg_lower_L
+    400038: leg_lower_R
+    400040: leg_upper_L
+    400042: leg_upper_R
+    400044: neck
+    400046: pelvis
+    400048: ref_front
+    400050: ref_side
+    400052: ribs
+    400054: shoulder_L
+    400056: shoulder_R
+    400058: spine
+    4300000: Character
+    7400000: Default Take
+    7400002: run
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Character
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/character_controller
+        weight: 1
+      - path: Armature/character_controller/foot_controller_L
+        weight: 1
+      - path: Armature/character_controller/foot_controller_L/foot_L
+        weight: 1
+      - path: Armature/character_controller/foot_controller_R
+        weight: 1
+      - path: Armature/character_controller/foot_controller_R/foot_R
+        weight: 1
+      - path: Armature/character_controller/hips
+        weight: 1
+      - path: Armature/character_controller/hips/leg_upper_L
+        weight: 1
+      - path: Armature/character_controller/hips/leg_upper_L/leg_lower_L
+        weight: 1
+      - path: Armature/character_controller/hips/leg_upper_R
+        weight: 1
+      - path: Armature/character_controller/hips/leg_upper_R/leg_lower_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/neck
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/neck/head
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L/arm_upper_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L/arm_upper_L/arm_lower_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L/arm_upper_L/arm_lower_L/hand_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L/arm_upper_L/arm_lower_L/hand_L/fingers_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R/arm_upper_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R/arm_upper_R/arm_lower_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R/arm_upper_R/arm_lower_R/hand_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R/arm_upper_R/arm_lower_R/hand_R/fingers_R
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: ref_front
+        weight: 1
+      - path: ref_side
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/character_controller
+        weight: 1
+      - path: Armature/character_controller/foot_controller_L
+        weight: 1
+      - path: Armature/character_controller/foot_controller_L/foot_L
+        weight: 1
+      - path: Armature/character_controller/foot_controller_R
+        weight: 1
+      - path: Armature/character_controller/foot_controller_R/foot_R
+        weight: 1
+      - path: Armature/character_controller/hips
+        weight: 1
+      - path: Armature/character_controller/hips/leg_upper_L
+        weight: 1
+      - path: Armature/character_controller/hips/leg_upper_L/leg_lower_L
+        weight: 1
+      - path: Armature/character_controller/hips/leg_upper_R
+        weight: 1
+      - path: Armature/character_controller/hips/leg_upper_R/leg_lower_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/neck
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/neck/head
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L/arm_upper_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L/arm_upper_L/arm_lower_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L/arm_upper_L/arm_lower_L/hand_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_L/arm_upper_L/arm_lower_L/hand_L/fingers_L
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R/arm_upper_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R/arm_upper_R/arm_lower_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R/arm_upper_R/arm_lower_R/hand_R
+        weight: 1
+      - path: Armature/character_controller/hips/pelvis/spine/ribs/shoulder_R/arm_upper_R/arm_lower_R/hand_R/fingers_R
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: ref_front
+        weight: 1
+      - path: ref_side
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{7BB72507-47B5-BE10-87C8-34E5FFA0E22E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;VUFORIA_ANDROID_SETTINGS;NO_GYRODROID_STATISTICS</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ActivateGyroDroid.cs" />
+     <Compile Include="Assets\Blaaaa.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\BackToScene.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\CheckAvailability.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\CloseApplication.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\CreateHouses.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\DampenCameraMovement.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\LoaderGUI.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\MoveToPoint.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\Rotate.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\SensorStatisticsGUI.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\SetScreenRotation.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\SwitchCamera.cs" />
+     <Compile Include="Assets\DemoSceneAssets\Scripts\SwitchRotationMode.cs" />
+     <Compile Include="Assets\GravityMarkerController.cs" />
+     <Compile Include="Assets\GyroDroid\SampleScripts\LightControl.cs" />
+     <Compile Include="Assets\GyroDroid\SampleScripts\MagneticFieldCamera.cs" />
+     <Compile Include="Assets\GyroDroid\SampleScripts\MinimalSensorCamera.cs" />
+     <Compile Include="Assets\GyroDroid\SampleScripts\MoveByLinearAcc.cs" />
+     <Compile Include="Assets\GyroDroid\SampleScripts\SpaceShipControl.cs" />
+     <Compile Include="Assets\GyroDroid\SampleScripts\TurntableSensorCamera.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Debug\SensorStatistics.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Devices\SensorDeviceAndroid.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Devices\SensorDeviceIPhone.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Devices\SensorDeviceUnity.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Devices\SensorEditorUnity.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Enums\RotationFallbackType.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Enums\SensorDelay.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Enums\SensorStatus.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Enums\SensorSurfaceRotation.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Enums\Type.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Filters\AngleFilter.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Filters\Filter.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Filters\FloatFilter.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Filters\QuaternionFilter.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Filters\Vector3Filter.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Sensor.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\SensorHelper.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Utils\GravityValue.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Utils\LightValue.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Utils\MagneticFieldValue.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Utils\NonAndroidFallback.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Utils\PressureValue.cs" />
+     <Compile Include="Assets\GyroDroid\Scripts\Utils\Sensor.Information.cs" />
+     <Compile Include="Assets\MaintainWorldRotation.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\BackgroundPlaneBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DataSetLoadBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultSmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\HideExcessAreaBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\IOSUnityPlayer.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\KeepAliveBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MarkerBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ObjectTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\PropBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ReconstructionBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ReconstructionFromTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SmartTerrainTrackerBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\VideoBackgroundBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\VideoTextureRenderer.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WebCamBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\Scripts\AccController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\SwitchableSensorCamera.cs" />
+     <Compile Include="Assets\hej.cs" />
+     <None Include="Assets\GyroDroid-minimal-README.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\DemoSceneAssets\Materials\DoubleSided.shader" />
+     <None Include="Assets\DemoSceneAssets\Materials\Mobile_Diffuse.shader" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\ARtestbild.xml" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Editor\QCAR\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\DepthMask.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\ARtestbilder.xml" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\GyroDroid\ReadMe-5.2.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Qualcomm.Vuforia.UnityExtensions">
+ <HintPath>/Users/bisse/Documents/Unity/ARtest/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
